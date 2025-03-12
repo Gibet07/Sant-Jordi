@@ -1,29 +1,32 @@
 .grid{
-    width: 560px;
-    height: 560px;
-    border: solid brown;
+    width: 1120px;
+    height: 1120px;
+    border: solid white;
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 .grid div{
-    width: 20px;
-    height: 20px;
-    border: solid brown;
-    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
 }
 .pink{
- background-color: palevioletred;
+    background-image: url('./petal\ 1.png');
+    background-size: cover;
+    
 }
 .brown{
-    background-color:peru
+    background-image: url('./murs.png');
+    background-size: cover;
 }
 .gris{
-    background-color: darkgray;
+    background:none;
 }
 .red{
-    background-color: brown;
+    background-image: url('./rosa.png');
+    background-size: cover;
 }
 .white{
-    background-color: white;
+    background: none;
 }
